@@ -18,7 +18,7 @@ RUN apt update && apt install -y -o Acquire::Retries=10 --no-install-recommends 
     texlive-fonts-extra \
     texlive-bibtex-extra \
     fontconfig \
-    lmodern fonts-arphic-ukai texlive-xetex fonts-noto-cjk
+    lmodern fonts-arphic-ukai texlive-xetex
 
 # define dir path that available to mount
 VOLUME ["/data"]
